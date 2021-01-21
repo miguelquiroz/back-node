@@ -1,0 +1,29 @@
+{
+  "name": "reserviumappbe",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^2.0.30",
+    "aws-amplify": "^1.1.5",
+    "aws-sdk": "^2.325.0",
+    "cognito-express": "^2.0.12",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-joi-validation": "^0.3.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.3.0",
+    "jwk-to-pem": "^2.0.0",
+    "morgan": "~1.9.0",
+    "node-fetch": "^2.2.0",
+    "request": "^2.88.0",
+    "swagger-node-express": "~2.0",
+    "minimist": "*",
+    "body-parser": "1.9.x"
+  }
+}
